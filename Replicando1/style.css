@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: white;
+}
+
+.main{
+    width: 1160px;
+    margin: auto auto;
+    margin-top: 220px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #696969;
+    opacity: 0.8;
+}
+
+.textos p{
+    font-size: 45px;
+    font-style: normal;
+}
+
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.button-success{
+    background: linear-gradient(to left,#48D1CC,#40E0D0);
+}
+
+.button-information{
+    background: linear-gradient(to left,#ADD8E6,#87CEEB);
+}
+
+.button-buyNow{
+    background: linear-gradient(to left,#9370DB,#7B68EE);
+}
+
+.button-warning{
+    background: linear-gradient(to left,#Ffa500,#FF8C00);
+}
+
+.button-contact{
+    background: linear-gradient(to left,#FF6347,#FF0000);
+}
+
+.button-delete{
+    background: linear-gradient(to left,#FFC0CB,#FFB6C1);
+}
+
+
+.buttons{
+    margin-top: 50px;
+}
+
+.button-top{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.button-bottom{
+    display: flex;
+    justify-content: space-around;
+}
